@@ -12,7 +12,6 @@
                 var userData = FizzBuzz.CheckUserData();
                 FizzBuzz fizzBuzz = new();
 
-                fizzBuzz.CheckNumber(userData);
                 Console.WriteLine(fizzBuzz.CheckNumber(userData));
 
                 var value = "y";
